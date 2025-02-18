@@ -7,9 +7,9 @@ import ChatWindow from '../components/ChatWindow'
 import MessageInput from '../components/MessageInput'
 
 export type MessageType = {
-  id: number
-  role: 'user' | 'assistant'
-  content: string
+  id: number;
+  role: 'user' | 'assistant';
+  content: string;
 }
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
   }
 
   const handleSend = async (text: string) => {
-    const userMessage = { id: Date.now(), role: 'user', content: text }
+    const userMessage: MessageType = { id: Date.now(), role: 'user', content: text }
     addMessage(userMessage)
 
     const conversationHistory = messages.concat(userMessage).map(msg => ({
@@ -39,7 +39,7 @@ export default function Home() {
         console.error('Error:', data.error)
         addMessage({ id: Date.now(), role: 'assistant', content: 'Sorry, an error occurred. Please try again.' })
       } else {
-        const assistantMessage = { id: Date.now() + 1, role: 'assistant', content: data.output }
+        const assistantMessage: MessageType = { id: Date.now() + 1, role: 'assistant', content: data.output }
         addMessage(assistantMessage)
       }
     } catch (error) {
