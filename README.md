@@ -2,7 +2,7 @@
 
 ## Description
 
-MyBot is an AI-powered chatbot built with Next.js, TypeScript, and Tailwind CSS. It leverages the Hugging Face Inference API to provide intelligent responses using the Meta Llama 3.3 70B Instruct model. This project demonstrates how to create a modern, responsive chat interface with AI capabilities.
+MyBot is an AI-powered chatbot built with Next.js, TypeScript, and Tailwind CSS. It leverages the Hugging Face Inference API to provide intelligent responses using the Meta Llama 3.3 70B Instruct model.
 
 ## Features
 
@@ -30,7 +30,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    git clone https://github.com/PSatakshee/My-Bot.git
-   cd my-bot
+   cd My-Bot
 2. Install dependencies:
    npm install
 3. Create a `.env.local` file in the root directory and add your Hugging Face API key
@@ -53,17 +53,11 @@ Before you begin, ensure you have met the following requirements:
 - `Message`: Renders individual chat messages
 - `MessageInput`: Handles user input for sending messages
 
-## Deployment
-
-This project is ready to be deployed on Vercel. Simply connect your GitHub repository to Vercel and it will automatically deploy your application.
 
 ## Contributing
 
 Contributions to MyBot are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
