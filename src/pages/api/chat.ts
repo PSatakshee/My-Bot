@@ -1,5 +1,3 @@
-// File: src/pages/api/chat.ts
-
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { HfInference } from "@huggingface/inference"
 
