@@ -2,25 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* You can add custom styles below this line */
 body {
   @apply antialiased;
   background: #F3F4F6;
 
 }
-
-/* Example of a custom utility class */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
-
-/* For IE, Edge and Firefox */
 .scrollbar-hide {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-
-/* You can add more custom styles or overrides as needed */
 #bot-screen {
   max-width: 1200px;
   margin: 0 auto;
