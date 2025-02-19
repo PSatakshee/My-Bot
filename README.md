@@ -29,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/my-bot.git
+   git clone https://github.com/PSatakshee/My-Bot.git
    cd my-bot
 2. Install dependencies:
    npm install
